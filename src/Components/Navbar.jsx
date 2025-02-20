@@ -26,7 +26,7 @@ function Navbar() {
   ]
   return (
     <>
-      <header className=" shadow shadow-[#cccccc94] sticky  top-0 left-0   bg-gray-900 text-white px-10 py-5 z-40">
+      <header className="w-full shadow shadow-[#cccccc94] sticky  top-0 left-0   bg-gray-900 text-white px-10 py-5 z-40">
         <div className="  container mx-auto flex justify-between items-center">
           <Link to="/" className=" flex justify-center items-center gap-2 cursor-pointer">
             <img src={Logo} className=' w-10  shadow shadow-[#ccc] rounded-full ' />
@@ -48,7 +48,7 @@ function Navbar() {
         </div>
       {
         openMenu && (
-          <div className="w-[95%] mx-[2.5%]  h-auto left-0 fixed top-21 lg:hidden ">
+          <div className="w-full  h-auto left-0 fixed top-21 lg:hidden ">
             <nav className='w-full rounded-xl py-10 h-full bg-gray-900 text-white flex justify-center items-center flex-col '>
               {
                 menuName.map(({ id, text, to }) => (
