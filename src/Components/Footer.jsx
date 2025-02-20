@@ -18,7 +18,7 @@ function Footer() {
     {
       id: 2, 
       icon: <FaInstagramSquare />,
-      link:"https://www.instagram.com/shambhulalsuryavanshi1978?igsh=NG1xdnc4Ym43dTZr ",
+      link:"https://www.instagram.com/ocean_water_solution?igsh=NG1xdnc4Ym43dTZr",
     }
   ];
   return (

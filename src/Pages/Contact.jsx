@@ -28,7 +28,7 @@ function Contact() {
 
         </h1>
         <h1 className=' shadow shadow-[#cccc] p-2 rounded-2xl flex font-bold gap-2'><FaInstagramSquare  className=' text-white text-4xl' />
-          <a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/shambhulalsuryavanshi1978?igsh=NG1xdnc4Ym43dTZr' className=' text-blue-600 hover:underline' >Instagram</a>
+          <a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/ocean_water_solution?igsh=NG1xdnc4Ym43dTZr ' className=' text-blue-600 hover:underline' >Instagram</a>
 
           </h1>
       </section>
