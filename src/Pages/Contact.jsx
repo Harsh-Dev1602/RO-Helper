@@ -2,6 +2,8 @@ import React from 'react';
 import { FaFacebook } from "react-icons/fa";
 import { FaSquareWhatsapp } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa6";
+import { FaInstagramSquare } from "react-icons/fa";
+
 
 function Contact() {
   return (
@@ -22,7 +24,13 @@ function Contact() {
 
         <h1 className=' shadow shadow-[#cccc] p-2 rounded-2xl flex font-bold gap-2'> <FaFacebook className=' text-white text-4xl' />
           <a target="_blank" rel="noopener noreferrer" href='https://www.facebook.com/OceanROService' className=' text-blue-600 hover:underline' >Facebook</a>
+
+
         </h1>
+        <h1 className=' shadow shadow-[#cccc] p-2 rounded-2xl flex font-bold gap-2'><FaInstagramSquare  className=' text-white text-4xl' />
+          <a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/shambhulalsuryavanshi1978?igsh=NG1xdnc4Ym43dTZr' className=' text-blue-600 hover:underline' >Instagram</a>
+
+          </h1>
       </section>
     </div>
   );

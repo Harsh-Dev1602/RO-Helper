@@ -1,6 +1,9 @@
 import React from 'react';
 import { FaFacebook } from "react-icons/fa";
 import { FaSquareWhatsapp } from "react-icons/fa6";
+import { FaInstagramSquare } from "react-icons/fa";
+
+
 function Footer() {
   const Icons = [
     { 
@@ -11,6 +14,11 @@ function Footer() {
       id: 1, 
       icon: <FaSquareWhatsapp />,
       link:`https://wa.me/${+919926052876}`,
+    },
+    {
+      id: 2, 
+      icon: <FaInstagramSquare />,
+      link:"https://www.instagram.com/shambhulalsuryavanshi1978?igsh=NG1xdnc4Ym43dTZr ",
     }
   ];
   return (
