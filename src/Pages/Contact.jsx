@@ -7,7 +7,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 
 function Contact() {
   return (
-    <div className=" container mx-auto p-2">
+    <div name="Contact Us" className=" container mx-auto p-2">
       <header className="text-center">
         <h1 className="text-4xl font-bold text-blue-800">Contact Us</h1>
         <p className="mt-4">We'd love to hear from you!</p>

@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <div className="container mx-auto p-5 text-black">
+    <div name="About" className="container mx-auto p-5 text-black">
       <header className="text-center py-10 rounded-2xl rounded-bl-[100px]  shadow shadow-[#cccc]">
         <h1 className="text-4xl font-bold text-blue-800">About Us</h1>
         <p className="mt-4">We are passionate about providing the best service!</p>

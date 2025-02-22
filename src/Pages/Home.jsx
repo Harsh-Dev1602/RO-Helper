@@ -19,7 +19,7 @@ function Home() {
   };
 
   return (
-    <div className=" mx-auto p-3 z-30">
+    <div name="Home" className=" mx-auto p-3 z-30">
       <div className=" shadow shadow-[#cccc]   rounded-2xl rounded-bl-[100px]">
         <header className="text-center p-2">
 
