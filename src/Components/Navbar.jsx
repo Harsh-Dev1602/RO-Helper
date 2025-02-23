@@ -4,6 +4,7 @@ import { RiMenuUnfold4Line } from "react-icons/ri";
 import { RiCloseFill } from "react-icons/ri";
 import Logo from "../../public/Img/LOGO.png"
 import { Link } from 'react-scroll';
+import 'animate.css';
 
 function Navbar() {
   const [openMenu, setMenu] = useState(false);
@@ -27,7 +28,7 @@ function Navbar() {
         <div className="  container mx-auto flex justify-between items-center">
           <div  className=" flex justify-center items-center gap-2 cursor-pointer">
             <img src={Logo} className=' w-10  shadow shadow-[#ccc] rounded-full ' />
-            <h1 className="text-3xl  font-bold">RO Service</h1>
+            <h1 className="text-3xl font-bold"><span className=' text-4xl'>R</span>O <span className=' text-4xl'>H</span>elper</h1>
           </div>
 
           <nav className=' hidden   lg:flex'>

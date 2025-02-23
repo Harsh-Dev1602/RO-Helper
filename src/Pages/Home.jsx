@@ -5,6 +5,12 @@ import BgImg2 from '../../public/Img/BG-IMG2.png'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Home.css";
+import BgImg3 from "../../public/Img/BG-IMG3.png"
+import BgImg4 from "../../public/Img/BG-IMG4.png"
+import BgImg5 from "../../public/Img/BG-IMG5.png"
+import BgImg6 from "../../public/Img/BG-IMG6.png"
+import BgImg7 from "../../public/Img/BG-IMG7.png"
+
 
 
 function Home() {
@@ -23,7 +29,7 @@ function Home() {
       <div className=" shadow shadow-[#cccc]   rounded-2xl rounded-bl-[100px]">
         <header className="text-center p-2">
 
-          <h1 className="text-4xl font-bold text-blue-800"> Welcome to ocean water solution </h1>
+          <h1 className="text-4xl font-bold text-blue-800 animate__animated animate__zoomIn"> Welcome to ocean water solution </h1>
           <p className="mt-4 text-white">Your go-to solution for quality services!</p>
         </header>
         <section className="w-[85%]  h-auto lg:w-[70%] shadow shadow-[#cccccca3] bg-gray-800 rounded-xl mx-auto">
@@ -34,6 +40,20 @@ function Home() {
             <div>
               <img src={BgImg2} className=' w-full h-auto object-cover' />
             </div>
+            <div>
+              <img src={BgImg4} className=' w-full mx-auto h-auto object-cover' />
+            </div>
+            <div>
+              <img src={BgImg5} className=' w-full mx-auto h-auto object-cover' />
+            </div>
+            <div>
+              <img src={BgImg6} className=' w-full mx-auto h-auto object-cover' />
+            </div>
+            <div>
+              <img src={BgImg7} className=' w-full mx-auto h-auto object-cover' />
+            </div>
+            
+            
           </Slider>
         </section>
       </div>
