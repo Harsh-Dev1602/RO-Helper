@@ -9,8 +9,6 @@ import BgImg3 from "../../public/Img/BG-IMG3.png"
 import BgImg4 from "../../public/Img/BG-IMG4.png"
 import BgImg5 from "../../public/Img/BG-IMG5.png"
 import BgImg6 from "../../public/Img/BG-IMG6.png"
-import BgImg7 from "../../public/Img/BG-IMG7.png"
-
 
 
 function Home() {
@@ -41,16 +39,16 @@ function Home() {
               <img src={BgImg2} className=' w-full h-auto object-cover' />
             </div>
             <div>
-              <img src={BgImg4} className=' w-full mx-auto h-auto object-cover' />
+              <img src={BgImg3} className='rounded-xl  w-[99%] mx-auto h-auto object-cover' />
             </div>
             <div>
-              <img src={BgImg5} className=' w-full mx-auto h-auto object-cover' />
+              <img src={BgImg4} className='rounded-xl w-[99%] mx-auto h-auto object-cover' />
             </div>
             <div>
-              <img src={BgImg6} className=' w-full mx-auto h-auto object-cover' />
+              <img src={BgImg5} className='rounded-xl w-[99%] mx-auto h-auto object-cover' />
             </div>
             <div>
-              <img src={BgImg7} className=' w-full mx-auto h-auto object-cover' />
+              <img src={BgImg6} className='rounded-xl w-[99%] mx-auto h-auto object-cover' />
             </div>
             
             

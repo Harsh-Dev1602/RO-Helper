@@ -25,7 +25,7 @@ function Footer() {
   return (
     <footer className="bg-gray-900 gap-6 lg:gap-0 text-white p-10 flex-col lg:flex-row flex justify-between">
       <div className=" order-2 lg:order-1 text-center">
-        <p>&copy; 2025 RO Service . All Rights Reserved.</p>
+        <p>&copy; 2025 RO Helper. All Rights Reserved.</p>
         <p className=' flex justify-center items-center gap-2.5'> <PiMapPinAreaFill className=' text-2xl font-bold'/>Indore, Madhya Pradesh, India</p>
       </div>
       <div className="flex order-1 lg:order-2 gap-4 justify-center items-center">
