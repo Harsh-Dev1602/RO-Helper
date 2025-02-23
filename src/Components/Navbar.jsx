@@ -26,10 +26,14 @@ function Navbar() {
     <>
       <header className="w-full shadow shadow-[#cccccc94] sticky  top-0 left-0   bg-gray-900 text-white px-10 py-5 z-40">
         <div className="  container mx-auto flex justify-between items-center">
-          <div  className=" flex justify-center items-center gap-2 cursor-pointer">
+          <Link to='Home' activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500} className=" flex justify-center items-center gap-2 cursor-pointer">
             <img src={Logo} className=' w-10  shadow shadow-[#ccc] rounded-full ' />
             <h1 className="text-3xl font-bold"><span className=' text-4xl'>R</span>O <span className=' text-4xl'>H</span>elper</h1>
-          </div>
+          </Link>
 
           <nav className=' hidden   lg:flex'>
             {
