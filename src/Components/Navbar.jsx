@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import { RiMenuUnfold4Line } from "react-icons/ri";
+import { IoMenu } from "react-icons/io5";
 import { RiCloseFill } from "react-icons/ri";
 import Logo from "../../public/Img/LOGO.png"
 import { Link } from 'react-scroll';
@@ -51,7 +51,7 @@ function Navbar() {
           </nav>
 
           <div className="lg:hidden block text-3xl text-white cursor-pointer" onClick={() => setMenu(!openMenu)}>
-            {openMenu ? <RiCloseFill /> : <RiMenuUnfold4Line />}
+            {openMenu ? <RiCloseFill /> :  <IoMenu />}
           </div>
 
         </div>
