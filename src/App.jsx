@@ -6,6 +6,7 @@ import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
 import ContactForm from './Pages/ContactForm';
 import { Toaster } from 'react-hot-toast';
+import AddStructuredData from './AddStructuredData';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Contact />
         <ContactForm />
         <Footer />
+        <AddStructuredData/>
       </div>
       <Toaster/>
 
