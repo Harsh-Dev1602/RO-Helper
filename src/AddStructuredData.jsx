@@ -7,7 +7,7 @@ const AddStructuredData = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: `{
-            "@context": "https://rohelper.com,
+            "@context": Ro Helper",
             "@type": "WebSite",
             "name": "Ro Helper",
             "url": "https://www.rohelper.com"
