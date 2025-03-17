@@ -18,7 +18,6 @@ function App() {
         <Contact />
         <ContactForm />
         <Footer />
-        <AddStructuredData/>
       </div>
       <Toaster/>
 
