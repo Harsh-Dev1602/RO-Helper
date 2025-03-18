@@ -9,12 +9,15 @@ function ContactForm() {
   const { register, handleSubmit, reset, formState: { errors ,isSubmitSuccessful } } = useForm();
 
 
-  const sendToWhatsapp = (name, number, message) => {
+  const sendToWhatsapp = (name, number, message,suggestion) => {
     let phoneNumber = "+919926052876"; 
     let url = `https://wa.me/${phoneNumber}?text=
     Name: ${name}%0a
     Number: ${number}%0a
-    Message: ${message}%0a%0a`;
+    Message: ${message}%0a%0a
+    Suggestion: ${suggestion}%0a
+    `;
+    
     setTimeout(() => {
     window.open(url, '_blank');    }, 2000); 
 }
@@ -25,13 +28,14 @@ function ContactForm() {
       name: data.name,
       number: data.number,
       message: data.message,
+      suggestion: data.suggestion,
     }
       
       try {
       
         toast.success("Your message has been send");
       
-        sendToWhatsapp(userInfo.name, userInfo.number, userInfo.message); 
+        sendToWhatsapp(userInfo.name, userInfo.number, userInfo.message,userInfo.suggestion); 
   
       }
       catch (error) {
