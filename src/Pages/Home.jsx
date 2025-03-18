@@ -37,7 +37,7 @@ function Home() {
             {
               bgImg.map(({id,img}) => (
                 <div key={id}>
-                  <img src={img} className=' w-full h-auto object-cover' />
+                <img src={img} className=' w-full h-auto object-cover' />
                 </div>
               ))
             }
