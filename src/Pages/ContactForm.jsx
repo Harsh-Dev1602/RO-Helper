@@ -14,8 +14,8 @@ function ContactForm() {
     let url = `https://wa.me/${phoneNumber}?text=
     Name: ${name}%0a
     Number: ${number}%0a
-    Message: ${message}%0a%0a
-    Suggestion: ${suggestion}%0a
+    Message: ${message}%0a
+    Suggestion: ${suggestion}
     `;
     
     setTimeout(() => {
