@@ -9,3 +9,12 @@
     margin: 0px  auto;
 
 }
+.Bg-water{
+    background-image: url("../../public/Img/BG.png");
+    background-size: cover;
+    object-fit: cover;
+}
+
+.S{
+    box-shadow: 1px 1px 2px  2.5px #cccccc5e;
+}

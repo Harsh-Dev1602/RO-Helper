@@ -2,13 +2,13 @@ import React from 'react';
 
 function About() {
   return (
-    <div name="About" className="container mx-auto p-5 text-black">
-      <header className="text-center py-10 rounded-2xl rounded-bl-[100px]  shadow shadow-[#cccc]">
+    <div name="About" className="w-full p-5  text-black">
+      <header className="text-center py-10 bg-white rounded-2xl rounded-bl-[100px]  shadow shadow-[#cccc]">
         <h1 className="text-4xl font-bold text-blue-800">About Us</h1>
         <p className="mt-4">We are passionate about providing the best service!</p>
       </header>
 
-      <section className="mt-2 p-2 text-xl rounded-2xl rounded-tr-[100px] bg-gray-900 text-white">
+      <section className=" S mt-2 p-5 text-xl rounded-2xl rounded-tr-[100px]  bg-blue-100 ">
         <h2 className="text-3xl font-bold">Our Story</h2>
         <p className=" mt-4 text-justify">
           Hello, I'm Shambhulal Suryavanshi, the founder of Ocean water solution. My journey in the world of water purification began in 2005 with Eureka Forbes Co. Ltd., a leading direct marketing company. Starting as a sales representative, I gained valuable experience in customer interaction and product knowledge over a year.

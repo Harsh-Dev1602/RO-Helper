@@ -4,20 +4,19 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
-import ContactForm from './Pages/ContactForm';
+import Icon from './Icon';
 import { Toaster } from 'react-hot-toast';
-import AddStructuredData from './AddStructuredData';
 
 function App() {
   return (
     <>
-      <div className="">
+      <div>
         <Navbar />
         <Home />
         <About />
         <Contact />
-        <ContactForm />
         <Footer />
+        <Icon/>
       </div>
       <Toaster/>
 

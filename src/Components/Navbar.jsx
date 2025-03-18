@@ -24,7 +24,7 @@ function Navbar() {
   ]
   return (
     <>
-      <header className="w-full shadow shadow-[#cccccc94] sticky  top-0 left-0   bg-gray-900 text-white px-10 py-5 z-40">
+      <header className="w-[99%] S bg-white mx-[0.5%] rounded-b-2xl  sticky  top-0 left-0  px-10 py-4 z-40">
         <div className="  container mx-auto flex justify-between items-center">
           <Link to='Home' activeClass="active"
                 spy={true}
@@ -32,7 +32,7 @@ function Navbar() {
                 offset={-70}
                 duration={500} className=" flex justify-center items-center gap-2 cursor-pointer">
             <img src={Logo} className=' w-10  shadow shadow-[#ccc] rounded-full ' />
-            <h1 className="text-3xl font-bold"><span className=' text-4xl'>R</span>O <span className=' text-4xl'>H</span>elper</h1>
+            <h1 className="text-2xl font-bold"><span className=' text-3xl'>R</span>O <span className=' text-3xl'>H</span>elper</h1>
           </Link>
 
           <nav className=' hidden   lg:flex'>
@@ -45,20 +45,20 @@ function Navbar() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-             key={id} className="px-5 py-2 rounded-md font-semibold cursor-pointer  text-lg hover:bg-gray-800  hover:text-white">{text}</Link>
+             key={id} className="px-4 py-1 rounded-md font-bold cursor-pointer  text-lg hover:shadow shadow-[#cccc]">{text}</Link>
               ))
             }
           </nav>
 
-          <div className="lg:hidden block text-3xl text-white cursor-pointer" onClick={() => setMenu(!openMenu)}>
+          <div className="lg:hidden block text-3xl cursor-pointer" onClick={() => setMenu(!openMenu)}>
             {openMenu ? <RiCloseFill /> :  <IoMenu />}
           </div>
 
         </div>
       {
         openMenu && (
-          <div className="w-full  h-auto left-0 fixed top-21 lg:hidden ">
-            <nav className='w-full rounded-xl py-10 h-full bg-gray-900 text-white flex justify-center items-center flex-col '>
+          <div className="w-full  h-auto left-0 fixed top-20 lg:hidden ">
+            <nav className='w-full rounded-xl py-10 h-full flex justify-center items-center flex-col bg-white shadow shadow-[#ccc] '>
               {
                 menuName.map(({ id, text }) => (
                  <Link 
@@ -68,7 +68,7 @@ function Navbar() {
                   smooth={true}
                   offset={-70}
                   duration={500}
-                 key={id} onClick={() => setMenu(!openMenu)} className="w-[90%] text-center  py-3 rounded-md font-semibold cursor-pointer  text-xl  active:bg-gray-800">{text}</Link>
+                 key={id} onClick={() => setMenu(!openMenu)} className="w-[90%] text-center  py-3 rounded-md font-bold cursor-pointer  text-xl  active:shadow shadow-[#ccc]">{text}</Link>
                 ))
               }
             </nav>
