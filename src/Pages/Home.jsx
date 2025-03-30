@@ -1,7 +1,6 @@
 import React from 'react';
 import Slider from "react-slick";
-import BgImg1 from '../../public/Img/BG-IMG1.png'
-import BgImg2 from '../../public/Img/BG-IMG2.png'
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Home.css";
@@ -22,7 +21,7 @@ function Home() {
     autoplaySpeed: 2000,
   };
   
-  const bgImg = [ {id:0,img:BgImg1,}, {id:1,img:BgImg2,}, {id:2,img:BgImg3,}, {id:3,img:BgImg4,}, {id:4,img:BgImg5,}, {id:5,img:BgImg6,}];
+  const bgImg = [ {id:2,img:BgImg3,}, {id:3,img:BgImg4,}, {id:4,img:BgImg5,}, {id:5,img:BgImg6,}];
 
   return (
     <div name="Home" className=" mx-auto p-5 z-30">
