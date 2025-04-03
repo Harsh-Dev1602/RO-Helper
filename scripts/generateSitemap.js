@@ -5,7 +5,7 @@ const BASE_URL = "https://rohelper.com/"; // Replace with your actual domain
 
 // Define your pages
 const pages = [
-  { url: "/", changefreq: "home", priority: 1.0 },
+  { url: "/", changefreq: "daily", priority: 1.0 },
 ];
 
 (async () => {
