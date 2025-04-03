@@ -6,6 +6,7 @@ import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
 import Icon from './Icon';
 import { Toaster } from 'react-hot-toast';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         <Icon/>
       </div>
       <Toaster/>
-
+      <SpeedInsights/>
     </>
   );
 }
