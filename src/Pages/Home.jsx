@@ -4,10 +4,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Home.css";
-import BgImg3 from "../../public/Img/BG-IMG3.png"
-import BgImg4 from "../../public/Img/BG-IMG4.png"
-import BgImg5 from "../../public/Img/BG-IMG5.png"
-import BgImg6 from "../../public/Img/BG-IMG6.png"
+import BgImg3 from "../../public/Img/BG-IMG1.png"
+import BgImg4 from "../../public/Img/BG-IMG2.png"
+import BgImg5 from "../../public/Img/BG-IMG3.png"
+import BgImg6 from "../../public/Img/BG-IMG4.png"
 
 
 function Home() {

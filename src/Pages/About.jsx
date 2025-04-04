@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
   return (
     <div name="About" className="w-full p-5  text-black">
-      <header className="text-center py-10 bg-white rounded-2xl rounded-bl-[100px]  shadow shadow-[#cccc]">
+      <header className="text-center py-10 bg-white">
         <h1 className="text-4xl font-bold text-blue-800">About Us</h1>
         <p className="mt-4">We are passionate about providing the best service!</p>
       </header>
