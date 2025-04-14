@@ -1,6 +1,6 @@
 import React from 'react';
 import Slider from "react-slick";
-
+import Card from "./Card"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Home.css";
@@ -28,7 +28,7 @@ function Home() {
       <div className="  Bg-water  rounded-2xl rounded-bl-[100px] ">
         <header className="text-center p-5">
 
-          <h1 className=" text-4xl font-bold text-blue-800 animate__animated animate__zoomIn"> Welcome to ocean water solution </h1>
+          <h1 className=" text-4xl font-bold text-blue-800 animate__animated animate__zoomIn">WELCOME TO RO HELPER</h1>
           <p className="mt-4 text-black">Your go-to solution for quality services!</p>
         </header>
         <section className="w-[85%]  h-auto lg:w-[70%]  bg-transparent rounded-xl mx-auto ">
@@ -43,7 +43,7 @@ function Home() {
           </Slider>
         </section>
       </div>
-
+           <Card/>
       <div className="S p-5   rounded-2xl  rounded-tr-[100px] mt-5">
         <section className="mt-10 ">
           <h2 className="text-3xl font-semibold">Our Services</h2>

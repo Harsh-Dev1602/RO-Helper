@@ -31,8 +31,8 @@ function Navbar() {
                 smooth={true}
                 offset={-70}
                 duration={500} className=" flex justify-center items-center gap-2 cursor-pointer">
-            <img src={Logo} className=' w-15 h-15  rounded-full ' />
-            <h1 className="text-2xl font-bold"><span className=' text-3xl'>R</span>O <span className=' text-3xl'>H</span>elper</h1>
+            <img src={Logo} className=' w-10 h-10  rounded-full ' />
+            <h1 className="text-2xl font-bold"><span className=' text-3xl'>RO</span> <span className=' text-3xl'>HELPER</span></h1>
           </Link>
 
           <nav className=' hidden   lg:flex'>
